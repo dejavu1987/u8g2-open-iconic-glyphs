@@ -1,0 +1,51 @@
+$icon-size: 64px; // Size of each icon in the sprite sheet
+$grid-size: 16; // Number of icons in each row and column of the grid
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+#icons {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+i.icon {
+    transform: scale(0.5);
+    width: $icon-size;
+    height: $icon-size;
+    display: block;
+    background: url("./iconic-sprite.png");
+    position: relative;
+  }
+
+  .icon-label{
+    font-size: 1.4rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    padding: 2px 6px;
+    display: inline-block;
+    font-style: normal;
+    position: absolute;
+    top: -2.3rem;
+    left: -6px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+
+@for $i from 0 through $grid-size {
+  @for $j from 0 through $grid-size {
+    $index: ($i) * $grid-size + $j; // Calculate the index for the icon
+
+    i.icon.icon-#{$index} {
+     background-position-x:  ($j * -1) * $icon-size; // Adjusted for 1px border
+     background-position-y:  ($i * -1) * $icon-size; // Adjusted for 1px border
+
+    }
+  }
+}
+
+
+

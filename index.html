@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momocoder Airmouse</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>U8g2 open iconic all Icons and their gliph values</h1>
+    <div id="icons"></div>
+
+    <!-- <img src="iconic-sprite.png" alt="" style="width: 100%" /> -->
+    <script>
+      const iconsContainer = document.getElementById("icons");
+      for (let i = 0; i < 224; i++) {
+        const icon = document.createElement("i");
+        icon.innerHTML = `<span class="icon-label">${i + 64}</span>`;
+        icon.setAttribute("class", `icon icon-${i}`);
+        iconsContainer.appendChild(icon);
+      }
+    </script>
+  </body>
+</html>

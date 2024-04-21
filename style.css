@@ -1,0 +1,1185 @@
+body {
+  font-family: 'DM Sans', sans-serif; }
+
+#icons {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap; }
+
+i.icon {
+  transform: scale(0.5);
+  width: 64px;
+  height: 64px;
+  display: block;
+  background: url("./iconic-sprite.png");
+  position: relative; }
+
+.icon-label {
+  font-size: 1.4rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 2px 6px;
+  display: inline-block;
+  font-style: normal;
+  position: absolute;
+  top: -2.3rem;
+  left: -6px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ccc; }
+
+i.icon.icon-0 {
+  background-position-x: 0px;
+  background-position-y: 0px; }
+
+i.icon.icon-1 {
+  background-position-x: -64px;
+  background-position-y: 0px; }
+
+i.icon.icon-2 {
+  background-position-x: -128px;
+  background-position-y: 0px; }
+
+i.icon.icon-3 {
+  background-position-x: -192px;
+  background-position-y: 0px; }
+
+i.icon.icon-4 {
+  background-position-x: -256px;
+  background-position-y: 0px; }
+
+i.icon.icon-5 {
+  background-position-x: -320px;
+  background-position-y: 0px; }
+
+i.icon.icon-6 {
+  background-position-x: -384px;
+  background-position-y: 0px; }
+
+i.icon.icon-7 {
+  background-position-x: -448px;
+  background-position-y: 0px; }
+
+i.icon.icon-8 {
+  background-position-x: -512px;
+  background-position-y: 0px; }
+
+i.icon.icon-9 {
+  background-position-x: -576px;
+  background-position-y: 0px; }
+
+i.icon.icon-10 {
+  background-position-x: -640px;
+  background-position-y: 0px; }
+
+i.icon.icon-11 {
+  background-position-x: -704px;
+  background-position-y: 0px; }
+
+i.icon.icon-12 {
+  background-position-x: -768px;
+  background-position-y: 0px; }
+
+i.icon.icon-13 {
+  background-position-x: -832px;
+  background-position-y: 0px; }
+
+i.icon.icon-14 {
+  background-position-x: -896px;
+  background-position-y: 0px; }
+
+i.icon.icon-15 {
+  background-position-x: -960px;
+  background-position-y: 0px; }
+
+i.icon.icon-16 {
+  background-position-x: -1024px;
+  background-position-y: 0px; }
+
+i.icon.icon-16 {
+  background-position-x: 0px;
+  background-position-y: -64px; }
+
+i.icon.icon-17 {
+  background-position-x: -64px;
+  background-position-y: -64px; }
+
+i.icon.icon-18 {
+  background-position-x: -128px;
+  background-position-y: -64px; }
+
+i.icon.icon-19 {
+  background-position-x: -192px;
+  background-position-y: -64px; }
+
+i.icon.icon-20 {
+  background-position-x: -256px;
+  background-position-y: -64px; }
+
+i.icon.icon-21 {
+  background-position-x: -320px;
+  background-position-y: -64px; }
+
+i.icon.icon-22 {
+  background-position-x: -384px;
+  background-position-y: -64px; }
+
+i.icon.icon-23 {
+  background-position-x: -448px;
+  background-position-y: -64px; }
+
+i.icon.icon-24 {
+  background-position-x: -512px;
+  background-position-y: -64px; }
+
+i.icon.icon-25 {
+  background-position-x: -576px;
+  background-position-y: -64px; }
+
+i.icon.icon-26 {
+  background-position-x: -640px;
+  background-position-y: -64px; }
+
+i.icon.icon-27 {
+  background-position-x: -704px;
+  background-position-y: -64px; }
+
+i.icon.icon-28 {
+  background-position-x: -768px;
+  background-position-y: -64px; }
+
+i.icon.icon-29 {
+  background-position-x: -832px;
+  background-position-y: -64px; }
+
+i.icon.icon-30 {
+  background-position-x: -896px;
+  background-position-y: -64px; }
+
+i.icon.icon-31 {
+  background-position-x: -960px;
+  background-position-y: -64px; }
+
+i.icon.icon-32 {
+  background-position-x: -1024px;
+  background-position-y: -64px; }
+
+i.icon.icon-32 {
+  background-position-x: 0px;
+  background-position-y: -128px; }
+
+i.icon.icon-33 {
+  background-position-x: -64px;
+  background-position-y: -128px; }
+
+i.icon.icon-34 {
+  background-position-x: -128px;
+  background-position-y: -128px; }
+
+i.icon.icon-35 {
+  background-position-x: -192px;
+  background-position-y: -128px; }
+
+i.icon.icon-36 {
+  background-position-x: -256px;
+  background-position-y: -128px; }
+
+i.icon.icon-37 {
+  background-position-x: -320px;
+  background-position-y: -128px; }
+
+i.icon.icon-38 {
+  background-position-x: -384px;
+  background-position-y: -128px; }
+
+i.icon.icon-39 {
+  background-position-x: -448px;
+  background-position-y: -128px; }
+
+i.icon.icon-40 {
+  background-position-x: -512px;
+  background-position-y: -128px; }
+
+i.icon.icon-41 {
+  background-position-x: -576px;
+  background-position-y: -128px; }
+
+i.icon.icon-42 {
+  background-position-x: -640px;
+  background-position-y: -128px; }
+
+i.icon.icon-43 {
+  background-position-x: -704px;
+  background-position-y: -128px; }
+
+i.icon.icon-44 {
+  background-position-x: -768px;
+  background-position-y: -128px; }
+
+i.icon.icon-45 {
+  background-position-x: -832px;
+  background-position-y: -128px; }
+
+i.icon.icon-46 {
+  background-position-x: -896px;
+  background-position-y: -128px; }
+
+i.icon.icon-47 {
+  background-position-x: -960px;
+  background-position-y: -128px; }
+
+i.icon.icon-48 {
+  background-position-x: -1024px;
+  background-position-y: -128px; }
+
+i.icon.icon-48 {
+  background-position-x: 0px;
+  background-position-y: -192px; }
+
+i.icon.icon-49 {
+  background-position-x: -64px;
+  background-position-y: -192px; }
+
+i.icon.icon-50 {
+  background-position-x: -128px;
+  background-position-y: -192px; }
+
+i.icon.icon-51 {
+  background-position-x: -192px;
+  background-position-y: -192px; }
+
+i.icon.icon-52 {
+  background-position-x: -256px;
+  background-position-y: -192px; }
+
+i.icon.icon-53 {
+  background-position-x: -320px;
+  background-position-y: -192px; }
+
+i.icon.icon-54 {
+  background-position-x: -384px;
+  background-position-y: -192px; }
+
+i.icon.icon-55 {
+  background-position-x: -448px;
+  background-position-y: -192px; }
+
+i.icon.icon-56 {
+  background-position-x: -512px;
+  background-position-y: -192px; }
+
+i.icon.icon-57 {
+  background-position-x: -576px;
+  background-position-y: -192px; }
+
+i.icon.icon-58 {
+  background-position-x: -640px;
+  background-position-y: -192px; }
+
+i.icon.icon-59 {
+  background-position-x: -704px;
+  background-position-y: -192px; }
+
+i.icon.icon-60 {
+  background-position-x: -768px;
+  background-position-y: -192px; }
+
+i.icon.icon-61 {
+  background-position-x: -832px;
+  background-position-y: -192px; }
+
+i.icon.icon-62 {
+  background-position-x: -896px;
+  background-position-y: -192px; }
+
+i.icon.icon-63 {
+  background-position-x: -960px;
+  background-position-y: -192px; }
+
+i.icon.icon-64 {
+  background-position-x: -1024px;
+  background-position-y: -192px; }
+
+i.icon.icon-64 {
+  background-position-x: 0px;
+  background-position-y: -256px; }
+
+i.icon.icon-65 {
+  background-position-x: -64px;
+  background-position-y: -256px; }
+
+i.icon.icon-66 {
+  background-position-x: -128px;
+  background-position-y: -256px; }
+
+i.icon.icon-67 {
+  background-position-x: -192px;
+  background-position-y: -256px; }
+
+i.icon.icon-68 {
+  background-position-x: -256px;
+  background-position-y: -256px; }
+
+i.icon.icon-69 {
+  background-position-x: -320px;
+  background-position-y: -256px; }
+
+i.icon.icon-70 {
+  background-position-x: -384px;
+  background-position-y: -256px; }
+
+i.icon.icon-71 {
+  background-position-x: -448px;
+  background-position-y: -256px; }
+
+i.icon.icon-72 {
+  background-position-x: -512px;
+  background-position-y: -256px; }
+
+i.icon.icon-73 {
+  background-position-x: -576px;
+  background-position-y: -256px; }
+
+i.icon.icon-74 {
+  background-position-x: -640px;
+  background-position-y: -256px; }
+
+i.icon.icon-75 {
+  background-position-x: -704px;
+  background-position-y: -256px; }
+
+i.icon.icon-76 {
+  background-position-x: -768px;
+  background-position-y: -256px; }
+
+i.icon.icon-77 {
+  background-position-x: -832px;
+  background-position-y: -256px; }
+
+i.icon.icon-78 {
+  background-position-x: -896px;
+  background-position-y: -256px; }
+
+i.icon.icon-79 {
+  background-position-x: -960px;
+  background-position-y: -256px; }
+
+i.icon.icon-80 {
+  background-position-x: -1024px;
+  background-position-y: -256px; }
+
+i.icon.icon-80 {
+  background-position-x: 0px;
+  background-position-y: -320px; }
+
+i.icon.icon-81 {
+  background-position-x: -64px;
+  background-position-y: -320px; }
+
+i.icon.icon-82 {
+  background-position-x: -128px;
+  background-position-y: -320px; }
+
+i.icon.icon-83 {
+  background-position-x: -192px;
+  background-position-y: -320px; }
+
+i.icon.icon-84 {
+  background-position-x: -256px;
+  background-position-y: -320px; }
+
+i.icon.icon-85 {
+  background-position-x: -320px;
+  background-position-y: -320px; }
+
+i.icon.icon-86 {
+  background-position-x: -384px;
+  background-position-y: -320px; }
+
+i.icon.icon-87 {
+  background-position-x: -448px;
+  background-position-y: -320px; }
+
+i.icon.icon-88 {
+  background-position-x: -512px;
+  background-position-y: -320px; }
+
+i.icon.icon-89 {
+  background-position-x: -576px;
+  background-position-y: -320px; }
+
+i.icon.icon-90 {
+  background-position-x: -640px;
+  background-position-y: -320px; }
+
+i.icon.icon-91 {
+  background-position-x: -704px;
+  background-position-y: -320px; }
+
+i.icon.icon-92 {
+  background-position-x: -768px;
+  background-position-y: -320px; }
+
+i.icon.icon-93 {
+  background-position-x: -832px;
+  background-position-y: -320px; }
+
+i.icon.icon-94 {
+  background-position-x: -896px;
+  background-position-y: -320px; }
+
+i.icon.icon-95 {
+  background-position-x: -960px;
+  background-position-y: -320px; }
+
+i.icon.icon-96 {
+  background-position-x: -1024px;
+  background-position-y: -320px; }
+
+i.icon.icon-96 {
+  background-position-x: 0px;
+  background-position-y: -384px; }
+
+i.icon.icon-97 {
+  background-position-x: -64px;
+  background-position-y: -384px; }
+
+i.icon.icon-98 {
+  background-position-x: -128px;
+  background-position-y: -384px; }
+
+i.icon.icon-99 {
+  background-position-x: -192px;
+  background-position-y: -384px; }
+
+i.icon.icon-100 {
+  background-position-x: -256px;
+  background-position-y: -384px; }
+
+i.icon.icon-101 {
+  background-position-x: -320px;
+  background-position-y: -384px; }
+
+i.icon.icon-102 {
+  background-position-x: -384px;
+  background-position-y: -384px; }
+
+i.icon.icon-103 {
+  background-position-x: -448px;
+  background-position-y: -384px; }
+
+i.icon.icon-104 {
+  background-position-x: -512px;
+  background-position-y: -384px; }
+
+i.icon.icon-105 {
+  background-position-x: -576px;
+  background-position-y: -384px; }
+
+i.icon.icon-106 {
+  background-position-x: -640px;
+  background-position-y: -384px; }
+
+i.icon.icon-107 {
+  background-position-x: -704px;
+  background-position-y: -384px; }
+
+i.icon.icon-108 {
+  background-position-x: -768px;
+  background-position-y: -384px; }
+
+i.icon.icon-109 {
+  background-position-x: -832px;
+  background-position-y: -384px; }
+
+i.icon.icon-110 {
+  background-position-x: -896px;
+  background-position-y: -384px; }
+
+i.icon.icon-111 {
+  background-position-x: -960px;
+  background-position-y: -384px; }
+
+i.icon.icon-112 {
+  background-position-x: -1024px;
+  background-position-y: -384px; }
+
+i.icon.icon-112 {
+  background-position-x: 0px;
+  background-position-y: -448px; }
+
+i.icon.icon-113 {
+  background-position-x: -64px;
+  background-position-y: -448px; }
+
+i.icon.icon-114 {
+  background-position-x: -128px;
+  background-position-y: -448px; }
+
+i.icon.icon-115 {
+  background-position-x: -192px;
+  background-position-y: -448px; }
+
+i.icon.icon-116 {
+  background-position-x: -256px;
+  background-position-y: -448px; }
+
+i.icon.icon-117 {
+  background-position-x: -320px;
+  background-position-y: -448px; }
+
+i.icon.icon-118 {
+  background-position-x: -384px;
+  background-position-y: -448px; }
+
+i.icon.icon-119 {
+  background-position-x: -448px;
+  background-position-y: -448px; }
+
+i.icon.icon-120 {
+  background-position-x: -512px;
+  background-position-y: -448px; }
+
+i.icon.icon-121 {
+  background-position-x: -576px;
+  background-position-y: -448px; }
+
+i.icon.icon-122 {
+  background-position-x: -640px;
+  background-position-y: -448px; }
+
+i.icon.icon-123 {
+  background-position-x: -704px;
+  background-position-y: -448px; }
+
+i.icon.icon-124 {
+  background-position-x: -768px;
+  background-position-y: -448px; }
+
+i.icon.icon-125 {
+  background-position-x: -832px;
+  background-position-y: -448px; }
+
+i.icon.icon-126 {
+  background-position-x: -896px;
+  background-position-y: -448px; }
+
+i.icon.icon-127 {
+  background-position-x: -960px;
+  background-position-y: -448px; }
+
+i.icon.icon-128 {
+  background-position-x: -1024px;
+  background-position-y: -448px; }
+
+i.icon.icon-128 {
+  background-position-x: 0px;
+  background-position-y: -512px; }
+
+i.icon.icon-129 {
+  background-position-x: -64px;
+  background-position-y: -512px; }
+
+i.icon.icon-130 {
+  background-position-x: -128px;
+  background-position-y: -512px; }
+
+i.icon.icon-131 {
+  background-position-x: -192px;
+  background-position-y: -512px; }
+
+i.icon.icon-132 {
+  background-position-x: -256px;
+  background-position-y: -512px; }
+
+i.icon.icon-133 {
+  background-position-x: -320px;
+  background-position-y: -512px; }
+
+i.icon.icon-134 {
+  background-position-x: -384px;
+  background-position-y: -512px; }
+
+i.icon.icon-135 {
+  background-position-x: -448px;
+  background-position-y: -512px; }
+
+i.icon.icon-136 {
+  background-position-x: -512px;
+  background-position-y: -512px; }
+
+i.icon.icon-137 {
+  background-position-x: -576px;
+  background-position-y: -512px; }
+
+i.icon.icon-138 {
+  background-position-x: -640px;
+  background-position-y: -512px; }
+
+i.icon.icon-139 {
+  background-position-x: -704px;
+  background-position-y: -512px; }
+
+i.icon.icon-140 {
+  background-position-x: -768px;
+  background-position-y: -512px; }
+
+i.icon.icon-141 {
+  background-position-x: -832px;
+  background-position-y: -512px; }
+
+i.icon.icon-142 {
+  background-position-x: -896px;
+  background-position-y: -512px; }
+
+i.icon.icon-143 {
+  background-position-x: -960px;
+  background-position-y: -512px; }
+
+i.icon.icon-144 {
+  background-position-x: -1024px;
+  background-position-y: -512px; }
+
+i.icon.icon-144 {
+  background-position-x: 0px;
+  background-position-y: -576px; }
+
+i.icon.icon-145 {
+  background-position-x: -64px;
+  background-position-y: -576px; }
+
+i.icon.icon-146 {
+  background-position-x: -128px;
+  background-position-y: -576px; }
+
+i.icon.icon-147 {
+  background-position-x: -192px;
+  background-position-y: -576px; }
+
+i.icon.icon-148 {
+  background-position-x: -256px;
+  background-position-y: -576px; }
+
+i.icon.icon-149 {
+  background-position-x: -320px;
+  background-position-y: -576px; }
+
+i.icon.icon-150 {
+  background-position-x: -384px;
+  background-position-y: -576px; }
+
+i.icon.icon-151 {
+  background-position-x: -448px;
+  background-position-y: -576px; }
+
+i.icon.icon-152 {
+  background-position-x: -512px;
+  background-position-y: -576px; }
+
+i.icon.icon-153 {
+  background-position-x: -576px;
+  background-position-y: -576px; }
+
+i.icon.icon-154 {
+  background-position-x: -640px;
+  background-position-y: -576px; }
+
+i.icon.icon-155 {
+  background-position-x: -704px;
+  background-position-y: -576px; }
+
+i.icon.icon-156 {
+  background-position-x: -768px;
+  background-position-y: -576px; }
+
+i.icon.icon-157 {
+  background-position-x: -832px;
+  background-position-y: -576px; }
+
+i.icon.icon-158 {
+  background-position-x: -896px;
+  background-position-y: -576px; }
+
+i.icon.icon-159 {
+  background-position-x: -960px;
+  background-position-y: -576px; }
+
+i.icon.icon-160 {
+  background-position-x: -1024px;
+  background-position-y: -576px; }
+
+i.icon.icon-160 {
+  background-position-x: 0px;
+  background-position-y: -640px; }
+
+i.icon.icon-161 {
+  background-position-x: -64px;
+  background-position-y: -640px; }
+
+i.icon.icon-162 {
+  background-position-x: -128px;
+  background-position-y: -640px; }
+
+i.icon.icon-163 {
+  background-position-x: -192px;
+  background-position-y: -640px; }
+
+i.icon.icon-164 {
+  background-position-x: -256px;
+  background-position-y: -640px; }
+
+i.icon.icon-165 {
+  background-position-x: -320px;
+  background-position-y: -640px; }
+
+i.icon.icon-166 {
+  background-position-x: -384px;
+  background-position-y: -640px; }
+
+i.icon.icon-167 {
+  background-position-x: -448px;
+  background-position-y: -640px; }
+
+i.icon.icon-168 {
+  background-position-x: -512px;
+  background-position-y: -640px; }
+
+i.icon.icon-169 {
+  background-position-x: -576px;
+  background-position-y: -640px; }
+
+i.icon.icon-170 {
+  background-position-x: -640px;
+  background-position-y: -640px; }
+
+i.icon.icon-171 {
+  background-position-x: -704px;
+  background-position-y: -640px; }
+
+i.icon.icon-172 {
+  background-position-x: -768px;
+  background-position-y: -640px; }
+
+i.icon.icon-173 {
+  background-position-x: -832px;
+  background-position-y: -640px; }
+
+i.icon.icon-174 {
+  background-position-x: -896px;
+  background-position-y: -640px; }
+
+i.icon.icon-175 {
+  background-position-x: -960px;
+  background-position-y: -640px; }
+
+i.icon.icon-176 {
+  background-position-x: -1024px;
+  background-position-y: -640px; }
+
+i.icon.icon-176 {
+  background-position-x: 0px;
+  background-position-y: -704px; }
+
+i.icon.icon-177 {
+  background-position-x: -64px;
+  background-position-y: -704px; }
+
+i.icon.icon-178 {
+  background-position-x: -128px;
+  background-position-y: -704px; }
+
+i.icon.icon-179 {
+  background-position-x: -192px;
+  background-position-y: -704px; }
+
+i.icon.icon-180 {
+  background-position-x: -256px;
+  background-position-y: -704px; }
+
+i.icon.icon-181 {
+  background-position-x: -320px;
+  background-position-y: -704px; }
+
+i.icon.icon-182 {
+  background-position-x: -384px;
+  background-position-y: -704px; }
+
+i.icon.icon-183 {
+  background-position-x: -448px;
+  background-position-y: -704px; }
+
+i.icon.icon-184 {
+  background-position-x: -512px;
+  background-position-y: -704px; }
+
+i.icon.icon-185 {
+  background-position-x: -576px;
+  background-position-y: -704px; }
+
+i.icon.icon-186 {
+  background-position-x: -640px;
+  background-position-y: -704px; }
+
+i.icon.icon-187 {
+  background-position-x: -704px;
+  background-position-y: -704px; }
+
+i.icon.icon-188 {
+  background-position-x: -768px;
+  background-position-y: -704px; }
+
+i.icon.icon-189 {
+  background-position-x: -832px;
+  background-position-y: -704px; }
+
+i.icon.icon-190 {
+  background-position-x: -896px;
+  background-position-y: -704px; }
+
+i.icon.icon-191 {
+  background-position-x: -960px;
+  background-position-y: -704px; }
+
+i.icon.icon-192 {
+  background-position-x: -1024px;
+  background-position-y: -704px; }
+
+i.icon.icon-192 {
+  background-position-x: 0px;
+  background-position-y: -768px; }
+
+i.icon.icon-193 {
+  background-position-x: -64px;
+  background-position-y: -768px; }
+
+i.icon.icon-194 {
+  background-position-x: -128px;
+  background-position-y: -768px; }
+
+i.icon.icon-195 {
+  background-position-x: -192px;
+  background-position-y: -768px; }
+
+i.icon.icon-196 {
+  background-position-x: -256px;
+  background-position-y: -768px; }
+
+i.icon.icon-197 {
+  background-position-x: -320px;
+  background-position-y: -768px; }
+
+i.icon.icon-198 {
+  background-position-x: -384px;
+  background-position-y: -768px; }
+
+i.icon.icon-199 {
+  background-position-x: -448px;
+  background-position-y: -768px; }
+
+i.icon.icon-200 {
+  background-position-x: -512px;
+  background-position-y: -768px; }
+
+i.icon.icon-201 {
+  background-position-x: -576px;
+  background-position-y: -768px; }
+
+i.icon.icon-202 {
+  background-position-x: -640px;
+  background-position-y: -768px; }
+
+i.icon.icon-203 {
+  background-position-x: -704px;
+  background-position-y: -768px; }
+
+i.icon.icon-204 {
+  background-position-x: -768px;
+  background-position-y: -768px; }
+
+i.icon.icon-205 {
+  background-position-x: -832px;
+  background-position-y: -768px; }
+
+i.icon.icon-206 {
+  background-position-x: -896px;
+  background-position-y: -768px; }
+
+i.icon.icon-207 {
+  background-position-x: -960px;
+  background-position-y: -768px; }
+
+i.icon.icon-208 {
+  background-position-x: -1024px;
+  background-position-y: -768px; }
+
+i.icon.icon-208 {
+  background-position-x: 0px;
+  background-position-y: -832px; }
+
+i.icon.icon-209 {
+  background-position-x: -64px;
+  background-position-y: -832px; }
+
+i.icon.icon-210 {
+  background-position-x: -128px;
+  background-position-y: -832px; }
+
+i.icon.icon-211 {
+  background-position-x: -192px;
+  background-position-y: -832px; }
+
+i.icon.icon-212 {
+  background-position-x: -256px;
+  background-position-y: -832px; }
+
+i.icon.icon-213 {
+  background-position-x: -320px;
+  background-position-y: -832px; }
+
+i.icon.icon-214 {
+  background-position-x: -384px;
+  background-position-y: -832px; }
+
+i.icon.icon-215 {
+  background-position-x: -448px;
+  background-position-y: -832px; }
+
+i.icon.icon-216 {
+  background-position-x: -512px;
+  background-position-y: -832px; }
+
+i.icon.icon-217 {
+  background-position-x: -576px;
+  background-position-y: -832px; }
+
+i.icon.icon-218 {
+  background-position-x: -640px;
+  background-position-y: -832px; }
+
+i.icon.icon-219 {
+  background-position-x: -704px;
+  background-position-y: -832px; }
+
+i.icon.icon-220 {
+  background-position-x: -768px;
+  background-position-y: -832px; }
+
+i.icon.icon-221 {
+  background-position-x: -832px;
+  background-position-y: -832px; }
+
+i.icon.icon-222 {
+  background-position-x: -896px;
+  background-position-y: -832px; }
+
+i.icon.icon-223 {
+  background-position-x: -960px;
+  background-position-y: -832px; }
+
+i.icon.icon-224 {
+  background-position-x: -1024px;
+  background-position-y: -832px; }
+
+i.icon.icon-224 {
+  background-position-x: 0px;
+  background-position-y: -896px; }
+
+i.icon.icon-225 {
+  background-position-x: -64px;
+  background-position-y: -896px; }
+
+i.icon.icon-226 {
+  background-position-x: -128px;
+  background-position-y: -896px; }
+
+i.icon.icon-227 {
+  background-position-x: -192px;
+  background-position-y: -896px; }
+
+i.icon.icon-228 {
+  background-position-x: -256px;
+  background-position-y: -896px; }
+
+i.icon.icon-229 {
+  background-position-x: -320px;
+  background-position-y: -896px; }
+
+i.icon.icon-230 {
+  background-position-x: -384px;
+  background-position-y: -896px; }
+
+i.icon.icon-231 {
+  background-position-x: -448px;
+  background-position-y: -896px; }
+
+i.icon.icon-232 {
+  background-position-x: -512px;
+  background-position-y: -896px; }
+
+i.icon.icon-233 {
+  background-position-x: -576px;
+  background-position-y: -896px; }
+
+i.icon.icon-234 {
+  background-position-x: -640px;
+  background-position-y: -896px; }
+
+i.icon.icon-235 {
+  background-position-x: -704px;
+  background-position-y: -896px; }
+
+i.icon.icon-236 {
+  background-position-x: -768px;
+  background-position-y: -896px; }
+
+i.icon.icon-237 {
+  background-position-x: -832px;
+  background-position-y: -896px; }
+
+i.icon.icon-238 {
+  background-position-x: -896px;
+  background-position-y: -896px; }
+
+i.icon.icon-239 {
+  background-position-x: -960px;
+  background-position-y: -896px; }
+
+i.icon.icon-240 {
+  background-position-x: -1024px;
+  background-position-y: -896px; }
+
+i.icon.icon-240 {
+  background-position-x: 0px;
+  background-position-y: -960px; }
+
+i.icon.icon-241 {
+  background-position-x: -64px;
+  background-position-y: -960px; }
+
+i.icon.icon-242 {
+  background-position-x: -128px;
+  background-position-y: -960px; }
+
+i.icon.icon-243 {
+  background-position-x: -192px;
+  background-position-y: -960px; }
+
+i.icon.icon-244 {
+  background-position-x: -256px;
+  background-position-y: -960px; }
+
+i.icon.icon-245 {
+  background-position-x: -320px;
+  background-position-y: -960px; }
+
+i.icon.icon-246 {
+  background-position-x: -384px;
+  background-position-y: -960px; }
+
+i.icon.icon-247 {
+  background-position-x: -448px;
+  background-position-y: -960px; }
+
+i.icon.icon-248 {
+  background-position-x: -512px;
+  background-position-y: -960px; }
+
+i.icon.icon-249 {
+  background-position-x: -576px;
+  background-position-y: -960px; }
+
+i.icon.icon-250 {
+  background-position-x: -640px;
+  background-position-y: -960px; }
+
+i.icon.icon-251 {
+  background-position-x: -704px;
+  background-position-y: -960px; }
+
+i.icon.icon-252 {
+  background-position-x: -768px;
+  background-position-y: -960px; }
+
+i.icon.icon-253 {
+  background-position-x: -832px;
+  background-position-y: -960px; }
+
+i.icon.icon-254 {
+  background-position-x: -896px;
+  background-position-y: -960px; }
+
+i.icon.icon-255 {
+  background-position-x: -960px;
+  background-position-y: -960px; }
+
+i.icon.icon-256 {
+  background-position-x: -1024px;
+  background-position-y: -960px; }
+
+i.icon.icon-256 {
+  background-position-x: 0px;
+  background-position-y: -1024px; }
+
+i.icon.icon-257 {
+  background-position-x: -64px;
+  background-position-y: -1024px; }
+
+i.icon.icon-258 {
+  background-position-x: -128px;
+  background-position-y: -1024px; }
+
+i.icon.icon-259 {
+  background-position-x: -192px;
+  background-position-y: -1024px; }
+
+i.icon.icon-260 {
+  background-position-x: -256px;
+  background-position-y: -1024px; }
+
+i.icon.icon-261 {
+  background-position-x: -320px;
+  background-position-y: -1024px; }
+
+i.icon.icon-262 {
+  background-position-x: -384px;
+  background-position-y: -1024px; }
+
+i.icon.icon-263 {
+  background-position-x: -448px;
+  background-position-y: -1024px; }
+
+i.icon.icon-264 {
+  background-position-x: -512px;
+  background-position-y: -1024px; }
+
+i.icon.icon-265 {
+  background-position-x: -576px;
+  background-position-y: -1024px; }
+
+i.icon.icon-266 {
+  background-position-x: -640px;
+  background-position-y: -1024px; }
+
+i.icon.icon-267 {
+  background-position-x: -704px;
+  background-position-y: -1024px; }
+
+i.icon.icon-268 {
+  background-position-x: -768px;
+  background-position-y: -1024px; }
+
+i.icon.icon-269 {
+  background-position-x: -832px;
+  background-position-y: -1024px; }
+
+i.icon.icon-270 {
+  background-position-x: -896px;
+  background-position-y: -1024px; }
+
+i.icon.icon-271 {
+  background-position-x: -960px;
+  background-position-y: -1024px; }
+
+i.icon.icon-272 {
+  background-position-x: -1024px;
+  background-position-y: -1024px; }
